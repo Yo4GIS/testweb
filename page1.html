@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yo4GIS</title>
+  
+  <!-- <link rel="stylesheet" href="mystyle.css"> -->
+  <script>
+
+   
+
+
+function GetFullName()
+{
+   let fname=document.getElementById("txtNum1").value;
+   let lname=document.getElementById("txtNum2").value;
+
+   let a1=document.getElementById("idh1");
+   a1.innerHTML=fname+" "+lname;
+   //a1.innerHTML=fname.charAt(lname);
+
+   //alert(fname+" "+lname);
+}
+
+
+  </script>
+
+</head>
+
+<body>
+
+ <input type="text" id="txtNum1" placeholder="First NAme">
+ <input type="text"    id="txtNum2" placeholder="Last Name">
+ <button id="btnSimpleIntrest" onclick="GetFullName()" >Get Full Name</button>
+ <h1 style="color: rgb(58, 13, 223);">My name is </h1>
+ <h1  id="idh1" style="color: red;"></h1>
+ <!-- <button id="btnSimpleIntrest" onclick="Add()" value="Click Me">+</button>
+ <button id="btnSimpleIntrest" onclick="Sub()" value="Click Me">-</button>
+ <button id="btnSimpleIntrest" onclick="Multiplication()" value="Click Me">*</button> -->
+   <!-- <button id="a21" value="Click Me">Click Me</button>
+    <button id="a31" value="Click Me">Click Me</button>
+ <button id="a31" value="Click">Click Me</button>
+<input type="text" value="Click Me"> -->
+ <script>
+    
+  </script>
+
+
+</body>
+
+</html>
